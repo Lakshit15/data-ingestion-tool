@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+    "types": ["@emotion/react/types/css-prop", "jest", "@testing-library/jest-dom"],
     "target": "es5",
     "lib": [
       "dom",
@@ -13,7 +14,7 @@
     "strict": true,
     "forceConsistentCasingInFileNames": true,
     "noFallthroughCasesInSwitch": true,
-    "module": "esnext",
+    "module": "commonjs",  // This can be "commonjs" or "esnext" depending on your setup
     "moduleResolution": "node",
     "resolveJsonModule": true,
     "isolatedModules": true,
